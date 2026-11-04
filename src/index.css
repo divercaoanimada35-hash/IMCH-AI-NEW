@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+/* =========================================================================
+   VS Code Dark+ Syntax Highlighting Theme (Prism.js)
+   Matches official Visual Studio Code color palette for all code elements
+   ========================================================================= */
+
+pre code[class*="language-"],
+pre[class*="language-"],
+code[class*="language-"] {
+  color: #d4d4d4;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px;
+  line-height: 1.5rem;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  tab-size: 2;
+  hyphens: none;
+}
+
+/* VS Code Comments: Green italic (#6a9955) */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a9955 !important;
+  font-style: italic;
+}
+
+/* VS Code Strings, Chars, and Attribute Values: Warm Orange/Terracotta (#ce9178) */
+.token.string,
+.token.attr-value,
+.token.char {
+  color: #ce9178 !important;
+}
+
+/* VS Code Keywords: Purple/Magenta (#c586c0) */
+.token.keyword {
+  color: #c586c0 !important;
+  font-weight: 600;
+}
+
+/* VS Code Functions & Method Calls: Soft Warm Yellow (#dcdcaa) */
+.token.function,
+.token.function-name {
+  color: #dcdcaa !important;
+}
+
+/* VS Code HTML / XML / JSX Tags: Classic VS Code Blue (#569cd6) */
+.token.tag {
+  color: #569cd6 !important;
+}
+
+.token.tag .token.punctuation {
+  color: #808080 !important;
+}
+
+/* VS Code React Components & Classes: Teal/Mint Cyan (#4ec9b0) */
+.token.class-name,
+.token.builtin {
+  color: #4ec9b0 !important;
+}
+
+/* VS Code Attributes & Properties: Light Sky Blue (#9cdcfe) */
+.token.attr-name,
+.token.property,
+.token.variable {
+  color: #9cdcfe !important;
+}
+
+/* VS Code Numbers & Booleans: Sage Green (#b5cea8) */
+.token.number,
+.token.boolean {
+  color: #b5cea8 !important;
+}
+
+/* VS Code CSS Selectors: Warm Yellow Ochre (#d7ba7d) */
+.token.selector {
+  color: #d7ba7d !important;
+}
+
+/* VS Code Constants & IDs: Cyan (#4fc1ff) */
+.token.constant,
+.token.symbol {
+  color: #4fc1ff !important;
+}
+
+/* VS Code Operators: Light Gray (#d4d4d4) */
+.token.operator {
+  color: #d4d4d4 !important;
+}
+
+/* VS Code Punctuation & Brackets: Gray / Gold (#d4d4d4 / #ffd700) */
+.token.punctuation {
+  color: #d4d4d4 !important;
+}
+
+/* VS Code Regex & Special: Red/Coral (#d16969) */
+.token.regex,
+.token.important {
+  color: #d16969 !important;
+}
+
+.token.entity,
+.token.url {
+  color: #4ec9b0 !important;
+}
+
+/* VS Code Editor Caret & Selection */
+.vscode-editor-selection::selection {
+  background-color: rgba(38, 79, 120, 0.7) !important;
+}
